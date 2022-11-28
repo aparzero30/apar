@@ -1,0 +1,181 @@
+body,html,.wrapper{
+    width: 100vw;
+    height: max-content;
+    background-color: #36393f;
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.about, .projects, .contact{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.about{
+    background-color: #36393f;
+    flex-direction: column;
+    padding-top: 7vh ;
+    height: max-content;
+    
+}
+
+.header{
+    height: 7vh;
+    color:white;
+    width: 100vw;
+    background-color: #2f3136;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.logo{
+    width: 50vw;
+}
+.menu{
+    width: 30vw;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3.5vw;
+        transition: width 0.5s;
+}
+
+
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu ul li{
+    padding-left: 30px;
+    font-size: 1vw;
+    font-family: Roboto Slab;
+}
+
+h1{
+    font-size: 2vw;
+    font-family: Secular One;
+    color: #2dca94;
+    text-align: center;
+}
+
+h2{
+    font-size: 2vw;
+    font-family: Secular One;
+    color: #2dca94;
+    text-align: center;
+}
+
+.billboard{
+    height: 90vh;
+    width: 100vw;
+   /* background-color: darkcyan;*/ 
+    position:static;
+    display: flex;
+    flex-direction: row;
+}
+.picture{
+   /* background-color: brown;*/
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+
+
+
+.greet{
+
+    height: 100px;
+    width: 50vw;
+    /*background-color: bisque;*/
+    display: flex;
+    justify-content: center;
+
+
+
+   
+}
+
+
+
+.rect{
+    width: 900px;
+    height: 400px;
+    background-color: #2dca94;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  
+}
+.prof{
+    height: 500px;
+    width: 500px;
+    background-image: url("https://www.pngarts.com/files/11/Elon-Musk-PNG-High-Quality-Image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  
+
+}
+
+
+
+.text-a{
+    background-color: gray;
+    height: 100%;
+    width: 50%;
+}
+
+.material-icons{
+    z-index: -69;
+    height:50px;
+    width: 50px;
+    font-size: 0;
+    position: fixed;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projects{
+    background-color: cornflowerblue;
+}
+
+.contact{
+    background-color: darkgreen;
+}

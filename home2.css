@@ -48,7 +48,11 @@
         overflow: hidden;
         padding-top: 100px;
         background-color: #2f3136;
+<<<<<<< HEAD
         padding-right: 0;
+=======
+        padding-right:0;
+>>>>>>> 7b4b4efc6b9da35d55ea532cbc2687e53c4678c8
         }
 
     .menu ul{

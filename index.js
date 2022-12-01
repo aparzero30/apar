@@ -3,6 +3,7 @@ let menuicon = document.getElementById("menu-icon");
 
 
 
+
 menuicon.onclick = function(){
 
     header.classList.toggle("openmenu")
